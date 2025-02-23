@@ -13,9 +13,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 // - Adding custom AuthenticationProvider
 // - Writing test code for security
 
-// TODO-01: Verify the presence of Spring security dependencies
-// - See TO-DO-01 in the pom.xml for Maven or build.gradle for Gradle
-
 // TODO-02a: Observe the default security behaviour of the Spring
 //           Boot application using a browser
 // - Run this application

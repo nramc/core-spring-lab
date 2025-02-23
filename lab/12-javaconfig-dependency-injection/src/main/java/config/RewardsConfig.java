@@ -1,5 +1,7 @@
 package config;
 
+import org.springframework.context.annotation.Configuration;
+
 import javax.sql.DataSource;
 
 /**
@@ -11,8 +13,6 @@ import javax.sql.DataSource;
  * - Creating Spring application context in the test code
  *   (WITHOUT using Spring testContext framework)
  *
- * TODO-01: Make this class a Spring configuration class
- * - Use an appropriate annotation.
  *
  * TODO-02: Define four empty @Bean methods, one for the
  *          reward-network and three for the repositories.
@@ -42,6 +42,7 @@ import javax.sql.DataSource;
  *   not an implementation.
  */
 
+@Configuration(proxyBeanMethods = false)
 public class RewardsConfig {
 
 	// Set this by adding a constructor.

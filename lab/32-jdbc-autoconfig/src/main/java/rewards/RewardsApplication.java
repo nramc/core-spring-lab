@@ -12,8 +12,6 @@ import org.springframework.boot.SpringApplication;
 // - Disabling a particular auto-configuration
 // - Exercising the usage of @ConfigurationProperties
 
-// TODO-01 : Open pom.xml or build.gradle, look for TO-DO-01
-
 // TODO-02 : In pom.xml or build.gradle, look for TO-DO-02
 
 // TODO-03 : Turn this 'RewardsApplication' into a Spring Boot application

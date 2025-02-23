@@ -21,7 +21,6 @@ import rewards.internal.reward.RewardRepository;
  * - Writing test code using stub implementations of dependencies
  * - Writing both target code and test code without using Spring framework
  *
- * TODO-01: Review the Rewards Application document (Refer to the lab document)
  * TODO-02: Review project dependencies (Refer to the lab document)
  * TODO-03: Review Rewards Commons project (Refer to the lab document)
  * TODO-04: Review RewardNetwork interface and RewardNetworkImpl class below
