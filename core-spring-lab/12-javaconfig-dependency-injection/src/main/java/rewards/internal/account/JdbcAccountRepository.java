@@ -17,15 +17,12 @@ import common.money.Percentage;
  */
 public class JdbcAccountRepository implements AccountRepository {
 
-	private DataSource dataSource;
+	private final DataSource dataSource;
 
-	/**
-	 * Sets the data source this repository will use to load accounts.
-	 * @param dataSource the data source
-	 */
-	public void setDataSource(DataSource dataSource) {
+	public JdbcAccountRepository(DataSource dataSource) {
 		this.dataSource = dataSource;
 	}
+
 
 	public Account findByCreditCard(String creditCardNumber) {
 		
